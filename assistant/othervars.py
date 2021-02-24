@@ -61,7 +61,7 @@ async def pmset(event):
 async def pmonn(event):
     var = "PMSETTING"
     await setit(event, var, "True")
-    await event.edit(f"Done! PMPermit has been turned on!! Please `{hndlr}restart`")
+    await event.edit(f"Done! 𝙎𝙐𝙍𝙅𝙄𝙄 𝙋𝙈 𝙋𝙀𝙍𝙈𝙄𝙏 𝙄𝙎 𝙊𝙉 𝙉𝙊𝙒..!! Please `{hndlr}restart`")
 
 
 @callback("pmoff")
