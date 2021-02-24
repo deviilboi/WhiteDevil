@@ -19,7 +19,7 @@ A stable pluggable Telegram userbot, based on Telethon.
 </details>
 
 # Deploy 
-- [Heroku](https://github.com/TeamUltroid/Ultroid#Deploy-to-Heroku)
+- [Heroku](https://github.com/deviilboi/WhiteDevil#Deploy-to-Heroku)
 - [Local Machine](https://github.com/TeamUltroid/Ultroid#Deploy-Locally)
 
 ## Deploy to Heroku
