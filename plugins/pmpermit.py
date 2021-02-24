@@ -15,10 +15,10 @@ from . import *
 # ========================= CONSTANTS =============================
 COUNT_PM = {}
 LASTMSG = {}
-PMPIC = "https://telegra.ph/file/94f6a4aeb21ce2d58dd41.jpg"
+PMPIC = "https://telegra.ph/file/a47512bb109b1d161950e.jpg"
 UNAPPROVED_MSG = """
 **PMSecurity of {}!**
-Please wait for me to respnd or you will be blocked and reported as spam!!
+Please 𝘽𝙎𝘿𝙆𝙆 𝙈𝙀𝙍𝙀 𝙋𝙔𝘼𝘼𝙍𝙀 𝘿𝙐𝙇𝘼𝙍𝙀 𝙈𝘼𝙎𝙏𝙀𝙍 𝙆𝙀 𝙋𝘼𝘼𝙎 𝙈𝘼𝙍𝙉𝙀 𝙆𝙔𝙐 𝘼𝘼𝙔𝙀𝙃𝙊!! 𝙒𝙊 𝙏𝙐𝙈 𝙎𝘽𝙆𝙄𝙄 𝙈𝘼𝘼 𝘾𝙃𝙊𝘿 𝘿𝙀𝙉𝙂𝙀.... 𝘾𝙃𝙐𝙋 𝘾𝙃𝘼𝘼𝙋 𝙎𝙀 𝙒𝘼𝙄𝙏 𝙆𝙍𝙊𝙊
 
 You have {}/{} warnings!"""
 WARNS = 3
@@ -102,7 +102,7 @@ if sett == "True" and sett != "False":
                     COUNT_PM[user.id] = COUNT_PM[user.id] + 1
                 if COUNT_PM[user.id] > WARNS:
                     await event.respond(
-                        "`You were spamming my Master's PM, which I didn't like.`\n`You have been BLOCKED and reported as SPAM, until further notice.`"
+                        "`𝘽𝙎𝘿𝙆𝙆𝙆 𝙏𝙀𝙆𝙊 𝘽𝙊𝙇𝘼 𝙏𝙃𝘼 𝙉𝘼 𝙈𝘼𝙎𝙏𝙀𝙍 𝙆𝘼 𝙄𝙉𝙏𝘼𝙅𝘼𝘼𝙍 𝙆𝙍... 𝙋𝘼𝙍 𝙉𝙃𝙄𝙄 𝙈𝙀𝙍𝙄𝙄 𝘽𝘼𝘼𝙏 𝙏𝙊𝙃 𝙎𝙐𝙉𝙉𝙄 𝙃𝙐 𝙉𝙊𝙄𝙄 𝙃.`\n`You have been BLOCKED and reported as SPAM, until further notice.`"
                     )
                     try:
                         del COUNT_PM[user.id]
