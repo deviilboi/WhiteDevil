@@ -1,9 +1,9 @@
 # Ultroid - UserBot
 # Copyright (C) 2020 TeamUltroid
 #
-# This file is a part of < https://github.com/TeamUltroid/Ultroid/ >
+# This file is a part of < https://github.com/deviilboi/WhiteDevil/ >
 # PLease read the GNU Affero General Public License in
-# <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
+# <https://github.com/deviilboi/WhiteDevil,/blob/main/LICENSE/>.
 
 echo "
 	      ╔╦╦╦══╦═╦═╦══╦══╗
@@ -29,14 +29,14 @@ apt-get autoremove --purge
 echo '
         •• Cloning Repository
 '
-git clone https://github.com/TeamUltroid/Ultroid.git /root/TeamUltroid/
+git clone https://github.com/deviilboi/WhiteDevil.git /root/deviilboi/
 
 echo '
 	•• Getting Libraries and Installing
 '
 pip install --upgrade pip setuptools wheel
 pip install search-engine-parser==0.6.2
-pip install -r /root/TeamUltroid/requirements.txt
+pip install -r /root/deviilboi/requirements.txt
 
 echo "
 
@@ -47,5 +47,5 @@ echo "
 
 			•°• Deployed Successfully °•°
 		   •• Wait till python images are pushed
-	   •• Give build logs in @UltroidSupport if build fails
+	   •• Give build logs in @WhiteDevil if build fails
 "
