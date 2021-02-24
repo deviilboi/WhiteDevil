@@ -60,13 +60,16 @@ async def e(o):
         b = o.builder
         uptime = grt((time.time() - start_time))
         ALIVEMSG = """
-**The Ultroid Userbot...**\n\n
-✵ **Owner** - `{}`
-✵ **Ultroid** - `{}`
-✵ **UpTime** - `{}`
-✵ **Python** - `{}`
-✵ **Telethon** - `{}`
-✵ **Branch** - `{}`
+"**  𝑾𝒉𝒊𝒕𝒆 𝑫𝒆𝒗𝒊𝒍 𝑰𝒔 𝑶𝒏𝒍𝒊𝒏𝒆**\n\n"
+ "**Yes Master, Am Alive And Systems Are Working Perfectly As It Should Be...**\n\n"
+ "✘ About My System ✘\n\n"
+**ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ** ☞ {version.__version__}\n"
+**ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ** ☞ [ᴊᴏɪɴ](https://t.me/WhiteDevilUserBot)\n"
+**ʟɪᴄᴇɴꜱᴇ**  ☞ [ᴛᴇᴀᴍ ᴡʜɪᴛᴇ](https://github.com/DARK-COBRA)\n"
+**ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ**☞ [ᴡʜɪᴛᴇ-ᴅᴇᴠɪʟ](https://github.com/Deviilboi/WhiteDevil)\n\n"
+**ᴜᴘᴛɪᴍᴇ**    ☞ {uptime}\n\n"
+**ᴍʏ ᴍᴀsᴛᴇʀ** ☞ [{DEFAULTUSER}](tg://user?id={ghanti})\n"
+**ᴄʀᴇᴀᴛᴏʀ** ☞ [ᴄʀᴇᴀᴛᴏʀ](https://t.me/theshashank)\n"
 """.format(
             OWNER_NAME,
             ultroid_version,
