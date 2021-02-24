@@ -1,11 +1,11 @@
 {
-    "name": "Ultroid UserBot",
+    "name": "White Devil UserBot",
     "description": "Pluggable telegram userbot, made in python using Telethon.",
     "logo": "https://telegra.ph/file/1518e15421d21c5afd9af.jpg",
     "keywords": ["Telethon", "telegram", "userbot", "python"],
-    "repository": "https://github.com/TeamUltroid/Ultroid",
-    "website": "https://ultroid.netlify.app/",
-    "success_url": "https://t.me/TheUltroid",
+    "repository": "https://github.com/deviilboi/WhiteDevil",
+    "website": "https://proskapp.blogspot.com/",
+    "success_url": "https://t.me/whitedeviluserbot",
     "stack": "container",
     "env": {
         "API_ID": {
